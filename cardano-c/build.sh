@@ -3,6 +3,7 @@
 set -e
 
 # see `rustup target list` for the list of supported targets
+# build comment for mac: ./build.sh x86_64-apple-darwin
 TARGETS="${*}"
 
 RUSTUP=$(which rustup)
